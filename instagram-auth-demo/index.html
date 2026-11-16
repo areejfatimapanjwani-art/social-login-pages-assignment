@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotoShare Authentication Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="demo-banner">CLASSROOM DEMO — Do not enter real account details</div>
+  <main class="phone">
+    <section class="auth-card">
+      <h1>PhotoShare</h1>
+      <p class="subtitle">Share moments with people you care about.</p>
+      <form id="demoForm">
+        <label for="username">Username or email</label>
+        <input id="username" type="text" placeholder="Demo username" autocomplete="off">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Demo password" autocomplete="off">
+        <button type="submit">Log In</button>
+      </form>
+      <div class="or"><span>OR</span></div>
+      <a href="#" id="help">Trouble logging in?</a>
+      <p class="notice" id="notice" aria-live="polite">This sample form does not send or save information.</p>
+    </section>
+    <section class="signup">
+      Don't have an account? <a href="#" id="signupLink">Sign up</a>
+    </section>
+    <p class="disclaimer">Independent educational mockup. Not affiliated with any social media company.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
